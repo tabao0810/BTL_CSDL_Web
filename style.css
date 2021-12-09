@@ -111,11 +111,18 @@ z-index: 1;
     margin-left: -1px;
 }
 
-
 #content{
-    /* margin-top: 142px; */
-    padding-top: 35%;
+    /* margin-top: 142px; */    
+    padding-top: 40%;
 background: url(./download.jpg) top center/cover no-repeat;
+}
+#content_1{
+    padding-top: 40%;
+    background: url(./apple-fall-event-2021.jpeg) top center/cover no-repeat;
+}
+#content_2{
+    padding-top: 40%;
+    background: url(./phone.jpg) top center/cover no-repeat;
 }
 #list-sanPham{
     margin-top: 60px;
