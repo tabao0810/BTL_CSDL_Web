@@ -114,15 +114,15 @@ z-index: 1;
 #content{
     /* margin-top: 142px; */    
     padding-top: 40%;
-background: url(./download.jpg) top center/cover no-repeat;
+background: url(./images/download.jpg) top center/cover no-repeat;
 }
 #content_1{
     padding-top: 40%;
-    background: url(./apple-fall-event-2021.jpeg) top center/cover no-repeat;
+    background: url(./images/apple-fall-event-2021.jpeg) top center/cover no-repeat;
 }
 #content_2{
     padding-top: 40%;
-    background: url(./phone.jpg) top center/cover no-repeat;
+    background: url(./images/phone.jpg) top center/cover no-repeat;
 }
 #list-sanPham{
     margin-top: 60px;
@@ -155,7 +155,7 @@ background: url(./download.jpg) top center/cover no-repeat;
 }
 #slider{
     padding-top: 35%;
-    background: url(./Desktop-Ưu-dãi-nhân-viên-2048x939.png) top center/cover no-repeat;
+    background: url(./images/Desktop-Ưu-dãi-nhân-viên-2048x939.png) top center/cover no-repeat;
     position: relative;
 }
 #slider .text-slider{
