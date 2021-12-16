@@ -19,7 +19,7 @@
                 <i class="ti-apple"><a href="#">Authorised</a></i>
                 <i class="ti-mobile"><a href="">19006626</a></i>
                 <i class="ti-location-pin"><a href="">Địa chỉ</a></i>
-                <a href="#"><i class="ti-bag js" style="font-size: 24px; margin-left: 12px;">
+                <a class="bag"><i class="ti-bag js" style="font-size: 24px; margin-left: 12px;">
                 </i></a>
             </div>
             <div class="clear"></div>   
@@ -261,6 +261,14 @@
             <br>Điện thoại: 0247.305.9999. <br>Email: lienhe@shopdunk.com. <br>Đại diện pháp luật: PHẠM MẠNH HÒA</p>
         </div>
     </div>
+    <div class="modal">
+        <div class="sub-modal">
+            <div class="content-modal">
+                <a href=""><i class="ti-close"></i></a>
+            </div>
+            
+        </div>
+    </div>
     <script>
         window.onscroll = function() {myFunction()};
         var navH = document.getElementById("nav-bar");
@@ -287,6 +295,24 @@
           }x[index-1].style.display="block";
           setTimeout(changeImg,3000);
       }   
+    </script>
+    <script>
+        const buybtn = document.querySelector('.bag')
+        const modal = document.querySelector('.modal')
+        const modalClose = document.querySelector('.ti-close')
+        const modalSub = document.querySelector('.sub-modal')
+        function showBuy(){
+                modal.classList.add('open')
+        }
+        function hideBuy(){
+                modal.classList.remove('open')
+        }
+        buybtn.addEventListener('click',showBuy)
+        modalClose.addEventListener('click',hideBuy)
+        modal.addEventListener('click',hideBuy)
+        modalSub.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
     </script>
 </body>
 </html>

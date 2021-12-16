@@ -305,3 +305,40 @@ text-align: center;
 line-height: 1.6;
 font-size: 14px;
 }
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);   
+    text-align: right;
+    justify-content: right;   
+    display: none;
+}
+.sub-modal{
+    background: #fff;
+    width: 350px;
+    height: auto;
+    text-align: right;
+    
+}
+.modal .content-modal{
+    margin-top: 32px;
+}
+.modal a{
+    text-decoration: none;
+}
+.modal .ti-close{
+    margin-top: 40px;
+    font-size: 24px;
+    padding: 10px;
+    align-items: center;
+    
+}
+/* .modal .ti-close:hover{
+    pointer-events: fill ;
+} */
+.modal.open{
+    display: flex;
+}
