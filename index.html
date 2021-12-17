@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.css">
 </head>
@@ -21,6 +21,7 @@
                 <i class="ti-location-pin"><a href="">Địa chỉ</a></i>
                 <a class="bag"><i class="ti-bag js" style="font-size: 24px; margin-left: 12px;">
                 </i></a>
+                <a href="./formDangNhap.html" style="font-size: 13px;"><i class="fas fa-sign-in-alt" style="font-size: 24px; margin-right: 10px;"></i>Đăng nhập</a>
             </div>
             <div class="clear"></div>   
         <ul class="nav" id="nav-bar">
@@ -128,6 +129,12 @@
 
         </div>
         <div id="content_2" class="slideShow">
+
+        </div>
+        <div id="content_3" class="slideShow">
+
+        </div>
+        <div id="content_4" class="slideShow">
 
         </div>
         
@@ -290,10 +297,10 @@
               x[i].style.display = "none";
           }
           index++;
-          if(index>x.length){
-              index=1
+          if(index > x.length){
+              index = 1
           }x[index-1].style.display="block";
-          setTimeout(changeImg,3000);
+          setTimeout(changeImg,1000);
       }   
     </script>
     <script>

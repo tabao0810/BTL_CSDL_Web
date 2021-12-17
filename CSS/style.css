@@ -122,7 +122,15 @@ background: url(./images/download.jpg) top center/cover no-repeat;
 }
 #content_2{
     padding-top: 40%;
-    background: url(./images/phone.jpg) top center/cover no-repeat;
+    background: url(./images/collage.jpg) top center/cover no-repeat;
+}
+#content_3{
+    padding-top: 40%;
+    background: url(./images/images.jpg) top center/cover no-repeat;
+}
+#content_4{
+    padding-top: 40%;
+    background: url(./images/san-pham-cua-apple-2021-hinh1_800x450.jpg) top center/cover no-repeat;
 }
 #list-sanPham{
     margin-top: 60px;
