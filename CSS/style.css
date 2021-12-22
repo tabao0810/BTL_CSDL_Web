@@ -350,3 +350,23 @@ font-size: 14px;
 .modal.open{
     display: flex;
 }
+.modal .btn_thanhToan{
+    padding: 10px 35px;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background:#818A91;
+    color: #fff;
+}
+.modal .listGioHang{
+   
+    width: 100%;
+}
+.modal .product{
+    margin:10px 20px;
+    float: left;
+    
+
+}
